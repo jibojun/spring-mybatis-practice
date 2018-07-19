@@ -14,7 +14,7 @@
     <aop:aspectj-autoproxy />
 
     <beans>
-        <bean id="springBean" class="com.demo.springdemo.service.samebeantest.sameBean1" >
+        <bean id="springBean" name="springBean" class="com.demo.springdemo.service.beantest.SameBean1" >
             <property name="info" value="bean1" />
         </bean >
     </beans>

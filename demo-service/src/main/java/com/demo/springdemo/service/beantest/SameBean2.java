@@ -1,4 +1,4 @@
-package com.demo.springdemo.service.samebeantest;
+package com.demo.springdemo.service.beantest;
 
 
 /**
@@ -6,8 +6,8 @@ package com.demo.springdemo.service.samebeantest;
  * @Description:
  * @Date: 2018/7/17_12:38 AM
  */
-public class sameBean2 {
-    private String info="bean2";
+public class SameBean2 {
+    private String info = "bean2";
 
     public String getInfo() {
         return info;
