@@ -32,7 +32,7 @@ public class Consumer implements Runnable {
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
-                queue.notify();
+                queue.notifyAll();
             }
         }
     }
