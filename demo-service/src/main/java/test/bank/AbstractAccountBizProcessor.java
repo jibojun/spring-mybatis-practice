@@ -22,7 +22,7 @@ public abstract class AbstractAccountBizProcessor<TFromAccount, TToAccount> {
             System.out.println(String.format("程序错误：%s", e.getMessage()));
         } finally {
             long finishTime = System.currentTimeMillis();
-            System.out.println(String.format("处理时间：%s", finishTime - currentTime));
+            System.out.println(String.format("线程：%s,处理时间：%s ms", Thread.currentThread(), finishTime - currentTime));
         }
     }
 

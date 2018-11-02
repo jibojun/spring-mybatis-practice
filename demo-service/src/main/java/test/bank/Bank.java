@@ -20,7 +20,7 @@ public class Bank {
         this.accountList = accountList;
     }
 
-    public void registerAccouns(List<Account> accountList) {
+    public void registerAccounts(List<Account> accountList) {
         this.accountList.addAll(accountList);
     }
 
